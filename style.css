@@ -909,5 +909,8 @@ footer {
     margin: 15px auto;
     text-align: center;
   }
+  .deals-container{
+    margin-top: 200px;
+  }
 }
 
