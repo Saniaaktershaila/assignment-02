@@ -902,10 +902,20 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  .text-container {
+    flex-direction: column; /* flex হলে! */
+    align-items: center; /* Center align content */
+    text-align: center; /* Text center */
+  }
+
   .text-des {
-    font-size: 16px; /* Smaller text for mobile */
-    line-height: 1.6;
-    padding-left: 15px;
+    font-size: 16px; /* Small text */
+    padding-left: 0; /* Mobile এ left indent বাদ */
     margin: 15px 0;
+    text-align: left; /* List bullet এ center awkward */
+  }
+
+  .text-des li {
+    margin-bottom: 10px;
   }
 }
