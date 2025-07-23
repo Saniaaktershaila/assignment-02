@@ -919,3 +919,13 @@ footer {
     margin-bottom: 10px;
   }
 }
+.text-des {
+  font-size: 22px;
+  color: rgba(0,0,0,0.5);
+  list-style: disc inside;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.text-des li {
+  margin-bottom: 10px;
+}
