@@ -710,3 +710,194 @@ footer {
   width: 24px;
   height: 24px;
 }
+
+/* last responsive */
+/* ✅ Latest Deals responsive */
+@media (max-width: 768px) {
+  .deals-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .deal-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .deal-card {
+    position: relative;
+  }
+
+  .deal-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .deal-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+
+  .deal-right {
+    position: relative;
+  }
+
+  .deal-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .deal-right .deal-text.big {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+
+  .deal-con {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .deal-des {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+
+/* ✅ Subscribe Section responsive */
+@media (max-width: 768px) {
+  .subscribe-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .subscribe-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .subscribe-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .subscribe-section input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .subscribe-section button {
+    padding: 10px;
+    font-size: 16px;
+    background: #f15b2a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+
+/* ✅ Footer responsive */
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .footer-left img {
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-links ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-links ul li {
+    margin: 5px 0;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer-social img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* ✅ Footer Responsive for Mobile */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .footer-left {
+    max-width: 100%;
+  }
+
+  .footer-left img {
+    max-width: 120px;
+  }
+
+  .footer-left p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .footer-links ul li {
+    margin: 5px 0;
+  }
+
+  .footer-social {
+    margin-top: 30px;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer-social img {
+    width: 24px;
+    height: 24px;
+  }
+}
