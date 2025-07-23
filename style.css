@@ -901,3 +901,11 @@ footer {
     height: 24px;
   }
 }
+@media (max-width: 768px) {
+  .text-des {
+    font-size: 16px; /* Smaller text for mobile */
+    line-height: 1.6;
+    padding-left: 15px;
+    margin: 15px 0;
+  }
+}
